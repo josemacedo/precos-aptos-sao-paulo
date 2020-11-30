@@ -16,7 +16,7 @@
 *   **requirements.txt** - Pacotes necessarios (Heroku cloud)
 *   **setup.sh** - Configuracao do ambiente (Heroku cloud)
 
-### C - Sobre oconjunto de dados
+### C - Sobre o dataset
 
 *   Escrever origem, como fiz e particularidades do ds
 

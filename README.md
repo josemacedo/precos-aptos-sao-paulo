@@ -12,6 +12,7 @@
 *   **precos_apes_em_sao_paulo.csv** - Dataset finalizado
 *   **precos_aptos_sao_paulo.ipynb** - Desenvolvimento do projeto
 *   **Procfile** - Instrucao para execucao (Heroku cloud)
+*   **README.md** - Descricao e notas gerais do projeto 
 *   **requirements.txt** - Pacotes necessarios (Heroku cloud)
 *   **setup.sh** - Configuracao do ambiente (Heroku cloud)
 

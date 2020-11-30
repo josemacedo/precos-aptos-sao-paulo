@@ -24,3 +24,4 @@
 ### D - Consideracoes finais
 
 *   Mais informacoes, consulte: **precos_aptos_sao_paulo.ipynb**
+*   Meus contatos e redes sociais: **[link](https://www.felipebueno.site)**

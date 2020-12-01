@@ -25,6 +25,7 @@
 
 1.   Coletar mais dados, principalmente apartamentos de luxo
 2.   Parameter tuning mais sofisticado. Bayesian Optimization?
+3.   Tipificar imoveis (padrao, flat, luxo) e rodar o modelo
 
 ### E - Consideracoes finais
 

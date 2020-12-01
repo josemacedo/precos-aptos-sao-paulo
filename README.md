@@ -19,6 +19,7 @@
 ### C - Sobre o dataset .csv
 
 *   Escrever origem, como fiz e particularidades do ds
+*   Scrape, tirei os links, tirei os valores absurdos. (kaggle e LinkedIn)
 
 ### D - Topicos para o futuro
 

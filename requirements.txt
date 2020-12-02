@@ -2,7 +2,3 @@ joblib==0.16.0
 pandas==1.1.2
 streamlit==0.67.1
 sklearn
-random
-re
-matplotlib.pyplot
-seaborn

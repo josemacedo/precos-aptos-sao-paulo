@@ -92,9 +92,8 @@ else:
     encode = joblib.load('encode_bairros.pkl')
     bairro_encode = encode.transform(bairro)
 
-    # Comodos totais e igual
+    # Comodos totais
     comodos = quartos + banheiros + suites
-
 
     # PROCESSANDO A PREDICAO -------------------------
     model = joblib.load('modelo.pkl')
@@ -103,9 +102,12 @@ else:
                                    metros,
                                    vagas,
                                    comodos]])*1000)
+    
+    # Separando os milhares do valor
     predicao = re.sub("(\d)(?=(\d{3})+(?!\d))",
                       r"\1.", "%d" % predicao)
-
+    
+    # Mostrando o resultado
     texto_destaque('O valor do imovel dos seus sonhos é:')
     texto_destaque('R$ {}'.format(predicao))
     texto_destaque('- - - - -')

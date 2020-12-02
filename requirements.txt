@@ -3,3 +3,4 @@ pandas==1.1.2
 streamlit==0.67.1
 sklearn
 Matplotlib
+seaborn

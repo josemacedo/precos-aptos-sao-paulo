@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run precos_aptos_sao_paulo.py

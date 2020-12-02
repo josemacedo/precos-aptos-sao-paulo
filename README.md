@@ -18,8 +18,7 @@
 
 ### C - Sobre o dataset .csv
 
-*   Escrever origem, como fiz e particularidades do ds
-*   Scrape, tirei os links, tirei os valores absurdos. (kaggle e LinkedIn)
+*   [Link para o projeto](https://www.kaggle.com/felipecabueno/apartment-prices-in-sao-paulo-br-2020)
 
 ### D - Topicos para o futuro
 

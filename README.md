@@ -7,9 +7,11 @@
 
 ### B - Arquivos nesse projeto
 
-*   **ccd.py** - Aplicativo web pronto para deploy
+*   **ccd.py** - Aplicativo web desenvolvido ok para deploy
+*   **encode_bairros.pkl** - Encoder para os nomes dos bairros
 *   **model.pkl** - Modelo salvo para predicao
 *   **precos_apes_em_sao_paulo.csv** - Dataset finalizado
+*   **precos_aptos_sao_paulo_prod.csv** - Dataset (threshold)
 *   **precos_aptos_sao_paulo.ipynb** - Desenvolvimento do projeto
 *   **Procfile** - Instrucao para execucao (Heroku cloud)
 *   **README.md** - Descricao e notas gerais do projeto 
@@ -22,7 +24,7 @@
 
 ### D - Topicos para o futuro
 
-1.   Reescrever o app do app e organizar o repo do projeto
+1.   Reescrever o codigo do app e organizar o repo do projeto
 2.   Coletar mais dados, principalmente apartamentos de luxo
 3.   Parameter tuning mais sofisticado. Bayesian Optimization?
 4.   Tipificar imoveis (padrao, flat, luxo) e testar no modelo

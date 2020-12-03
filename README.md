@@ -20,7 +20,7 @@
 
 ### C - Sobre o dataset .csv
 
-*   [Link para o projeto](https://www.kaggle.com/felipecabueno/apartment-prices-in-sao-paulo-br-2020)
+*   [Link para o dataset](https://www.kaggle.com/felipecabueno/apartment-prices-in-sao-paulo-br-2020)
 
 ### D - Topicos para o futuro
 

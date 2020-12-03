@@ -35,5 +35,5 @@
 
 ### E - Consideracoes finais
 
-*   Mais informacoes, consulte: **precos_aptos_sao_paulo.ipynb**
+*   Mais informacoes, consulte: **[precos_aptos_sao_paulo.ipynb](https://github.com/felipecabueno/precos-aptos-sao-paulo/blob/main/precos_aptos_sao_paulo.ipynb)**
 *   Meus contatos e redes sociais: **[link](https://www.felipebueno.site)**

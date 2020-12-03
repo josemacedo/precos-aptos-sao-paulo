@@ -27,11 +27,11 @@
 
 ### D - Topicos para o futuro
 
-1.   Melhorar substancialmente os resultados do modelo
-2.   Parameter tuning mais sofisticado. Bayesian Optimization?
-3.   Reescrever o codigo do app e organizar o repo do projeto
-4.   Coletar mais dados, principalmente apartamentos de luxo
-5.   Tipificar imoveis (padrao, flat, luxo) e testar no modelo
+1.   Parameter tuning mais sofisticado. Bayesian Optimization?
+2.   Melhorar substancialmente os resultados do modelo
+3.   Coletar mais dados, principalmente apartamentos de luxo
+4.   Tipificar imoveis (padrao, flat, luxo) e testar no modelo
+5.   Reescrever o codigo do app e organizar o repo do projeto
 
 ### E - Consideracoes finais
 

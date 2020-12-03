@@ -7,11 +7,11 @@
 
 ### B - Arquivos nesse projeto
 
-*   **ccd.py** - Aplicativo web desenvolvido ok para deploy
+*   **ccd.py** - Aplicativo web desenvolvido em streamlit
 *   **encode_bairros.pkl** - Encoder para os nomes dos bairros
-*   **model.pkl** - Modelo salvo para predicao
-*   **precos_apes_em_sao_paulo.csv** - Dataset finalizado
-*   **precos_aptos_sao_paulo_prod.csv** - Dataset (threshold)
+*   **model.pkl** - Modelo treinado salvo para predicao
+*   **precos_apes_em_sao_paulo.csv** - DS pronto - base de dados
+*   **precos_aptos_sao_paulo_prod.csv** - DS final - producao
 *   **precos_aptos_sao_paulo.ipynb** - Desenvolvimento do projeto
 *   **Procfile** - Instrucao para execucao (Heroku cloud)
 *   **README.md** - Descricao e notas gerais do projeto 
@@ -20,7 +20,10 @@
 
 ### C - Sobre o dataset .csv
 
-*   [Link para o dataset](https://www.kaggle.com/felipecabueno/apartment-prices-in-sao-paulo-br-2020)
+1.   Fiz um scrape em varios sites de imobiliárias e anuncios 
+2.   Colhi variados bairros, nº de comodos e um bom range de precos
+3.   Com regex bati as infos dos campos com a descricao do imovel
+4.   Tratei os csv's, eliminei discrepancias e juntei num só arquivo
 
 ### D - Topicos para o futuro
 

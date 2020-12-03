@@ -1,6 +1,6 @@
 ### A - Objetivos do projeto
 
-1.   Reunir dados do mercado imobiliario de **Sao Paulo**
+1.   Reunir dados do mercado imobiliario de Sao Paulo
 2.   Descobrir caracteristicas que interferem no preco
 3.   Criar um modelo para prever valores de apartamentos
 4.   Desenvolver um um web app usando o modelo salvo

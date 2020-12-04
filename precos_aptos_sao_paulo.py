@@ -6,10 +6,9 @@ import seaborn as sns
 import streamlit as st
 import joblib
 
-# Setando o estilo do seaborn
-sns.set_style('darkgrid')
+# CONFIGURACOES GERAIS
 
-# ELIMINANDO O MENU SREAMLIT
+# Eliminando o menu do streamlit
 hide_style = '''
              <style>
              #MainMenu {visibility: hidden;}
@@ -18,17 +17,23 @@ hide_style = '''
              '''
 st.markdown(hide_style, unsafe_allow_html=True)
 
+# Setando o estilo do grafico seaborn
+sns.set_style('darkgrid')
+
 # FUNCOES GERAIS CRIADAS
 def titulo_centro(texto):
-    html = "<h2 style='text-align: center;'><b>{}</b></h2>".format(texto)
+    html = "<h2 style='text-align: center;'><b>{}</b></h2>"
+    html = html.format(texto)
     st.markdown(html, unsafe_allow_html=True)
     
 def texto_destaque(texto):
-    html = "<h3 style='text-align: center;'>{}</h3>".format(texto)
+    html = "<h3 style='text-align: center;'>{}</h3>"
+    html = html.format(texto)
     st.markdown(html, unsafe_allow_html=True)
     
 def texto_centro(texto):
-    html = "<p style='text-align: center;'>{}</p>".format(texto)
+    html = "<p style='text-align: center;'>{}</p>"
+    html = html.format(texto)
     st.markdown(html, unsafe_allow_html=True)
     
 # INICIO DO APP -------------------------
@@ -49,7 +54,7 @@ bairros_nomes = list(data['bairros'].unique())
 bairros_nomes = sorted(bairros_nomes)
 bairro = st.sidebar.multiselect('Bairro/Bairros',
                                 bairros_nomes,
-                                'alto da lapa')
+                                bairros_nomes[0])
 
 # Metragem (m2)
 metros = st.sidebar.number_input('Metragem (m2)',
@@ -81,7 +86,7 @@ vagas = st.sidebar.number_input('Total de vagas',
                                 min_value = 0,
                                 max_value = 10)
 
-# O USUARIO PREENCHE INFORMACOES -------------------------
+# PROCESSANDO AS INFORMACOES -------------------------
 
 if len(bairro) != 1:
     texto_destaque('< Escolha um bairro!')
@@ -103,7 +108,7 @@ else:
                                    vagas,
                                    comodos]])*1000)
     
-    # Separando os milhares do valor
+    # Separando o valor em milhares
     predicao = re.sub("(\d)(?=(\d{3})+(?!\d))",
                       r"\1.", "%d" % predicao)
     
@@ -112,16 +117,17 @@ else:
     texto_destaque('R$ {}'.format(predicao))
     texto_destaque('- - - - -')
 
-    # PROCESSANDO AS INFORMACOES -------------------------
+    # OUTRAS INFORMACOES DO BAIRRO -------------------------
     
-    # CONSTRUCAO DO GRAFICO
+    # Essa e a opcao do bairro escolhido:
     bairro_escolhido = bairro[0]
     texto_destaque('Outros imoveis em {} - MR$'
                    .format(bairro_escolhido.capitalize()))
     
-    # Filtrando o bairro escolhido
+    # Filtrando as amostras do bairro escolhido
     data_bairro = data[data['bairros'] == bairro_escolhido]
     
+    # Grafico dos precos, com hue de dormitorios
     fig, ax = plt.subplots()
     sns.kdeplot(data_bairro['PRECO_MILHARES'],
                 shade = True,
@@ -134,6 +140,6 @@ else:
     plt.yticks([])
     st.pyplot(fig)
     
-    # Rodape
+    # MENSAGEM FINAL DO APLICATIVO -------------------------
     texto_destaque('- - - - -')
     texto_centro('por felipe.amadorbueno@gmail.com')

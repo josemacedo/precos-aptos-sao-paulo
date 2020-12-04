@@ -24,6 +24,7 @@
 2.   Colhi variados bairros, nº de comodos e um bom range de precos
 3.   Com regex bati as infos dos campos com a descricao do imovel
 4.   Tratei os csv's, eliminei discrepancias e juntei num só arquivo
+5.   Eliminei o link do anuncio, e colunas que tinham a fonte (sites)
 
 ### D - Topicos para o futuro
 

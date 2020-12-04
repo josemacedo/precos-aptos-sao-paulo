@@ -32,7 +32,6 @@
 3.   Testar o uso de ensemble com os modelos e ver os resultados
 3.   Coletar mais dados, principalmente apartamentos de luxo
 4.   Tipificar imoveis (padrao, flat, luxo) e testar no modelo
-5.   Reescrever o codigo do app e organizar o repo do projeto
 
 ### E - Consideracoes finais
 

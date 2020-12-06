@@ -30,7 +30,6 @@
 
 1.   Parameter tuning mais sofisticado. Bayesian Optimization?
 2.   Melhorar substancialmente os resultados do modelo
-3.   Testar o uso de ensemble com os modelos e ver os resultados
 3.   Coletar mais dados, principalmente apartamentos de luxo
 4.   Tipificar imoveis (padrao, flat, luxo) e testar no modelo
 

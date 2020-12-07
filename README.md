@@ -32,6 +32,7 @@
 2.   Melhorar substancialmente os resultados do modelo
 3.   Coletar mais dados, principalmente apartamentos de luxo
 4.   Tipificar imoveis (padrao, flat, luxo) e testar no modelo
+5.   Agregar informacoes novas, ex.: criminalidade dos bairros
 
 ### E - Consideracoes finais
 

@@ -37,3 +37,4 @@
 ### E - Consideracoes finais
 
 *   Mais informacoes, consulte: **[precos_aptos_sao_paulo.ipynb](https://github.com/felipecabueno/precos-aptos-sao-paulo/blob/main/precos_aptos_sao_paulo.ipynb)**
+*   **[Parte 1 do artigo do projeto - LinkedIn](https://www.linkedin.com/pulse/dataset-pre%C3%A7o-de-apartamentos-em-s%C3%A3o-paulo-2020-felipe-bueno/?published=t)**
